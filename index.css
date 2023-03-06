@@ -1,0 +1,132 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+.navigation ul li{
+    list-style-type: none;
+    font-size: 1em;
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+   
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+.navigation a:hover, a:focus{
+    text-decoration: underline;
+}
+.sign{
+    background-color: lightskyblue;
+    margin-right: 30px;
+    color: white;
+    padding: 2px;
+}
+#navigation ul{
+    float: right;
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 20px;
+   
+}
+#navigation img{
+    width: 20px;
+}
+
+#image{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+}
+.image img{
+    width: 35%;
+
+}
+
+
+.search img{
+    width: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 50%;
+    /* max-width: 700px; */
+    height: 25px;
+    padding: 10px;
+    border: 1px solid rgb(196, 190, 190);
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 1px 0.4em 0.5em rgb(149, 153, 149);
+}
+.form input{
+    margin-right: 30px;
+    width: 80%;
+    border-style: hidden;
+    font-size: 1.5em;
+
+}
+
+input:focus{
+    outline: none;
+}
+.search-image{
+    border: none;
+    background-color: white;
+}
+button{
+    border: none;
+    width: 30px;
+    height: auto;
+    background-color: white;
+}
+.container{
+    justify-content: center;
+    margin: 20px;
+}
+.google{
+    box-sizing: border-box;
+    
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.google button{
+    padding: 10px;
+    width: 30%;
+    background-image: linear-gradient(to right, rgb(133, 126, 126,1), yellow);
+}
+.google .feeling{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .search{
+
+        width: 100%;
+        align-items: center;
+    
+    }
+    .search input{
+        font-size: 15px;
+        width: 50%;
+    }
+    .form{
+        align-items: center;
+    }
+    .container .image{
+        margin-top: 100px;
+    }
+    .google button{
+        width: 80px;
+        font-size: 10px;
+    }
+}
